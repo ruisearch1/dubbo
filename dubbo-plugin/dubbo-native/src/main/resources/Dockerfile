@@ -15,7 +15,7 @@
 
 # Create graalvm environment for running dubbo native projects
 
-FROM maven:3-jdk-11-slim
+FROM maven:3.8.7-openjdk-18-slim
 
 WORKDIR /opt
 
